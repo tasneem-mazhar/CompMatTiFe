@@ -1,0 +1,85 @@
+Job started on: Tue Oct 28 10:51:00 AM CET 2025
+Running on node: node3583.doduo.os
+Job ID: 59665330
+
+════════════════════════════════════════════════════════════
+  ecutrho Factor Convergence Test (HPC)
+════════════════════════════════════════════════════════════
+
+Using converged k-mesh: 9 9 9
+Using converged ecutwfc: 140 Ry
+
+Testing factor = 2 (ecutrho = 280 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor2.in
+  Exit code: 0, Time: 10s
+  P = 36.09 kbar, E = -448.58939100 Ry, Time = 10s
+Testing factor = 4 (ecutrho = 560 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor4.in
+  Exit code: 0, Time: 15s
+  P = 32.20 kbar, E = -448.58663335 Ry, Time = 15s
+Testing factor = 5 (ecutrho = 700 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor5.in
+  Exit code: 0, Time: 14s
+  P = 31.07 kbar, E = -448.58662948 Ry, Time = 14s
+Testing factor = 6 (ecutrho = 840 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor6.in
+  Exit code: 0, Time: 18s
+  P = 32.18 kbar, E = -448.58658892 Ry, Time = 18s
+Testing factor = 7 (ecutrho = 980 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor7.in
+  Exit code: 0, Time: 16s
+  P = 31.18 kbar, E = -448.58659446 Ry, Time = 16s
+Testing factor = 8 (ecutrho = 1120 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor8.in
+  Exit code: 0, Time: 19s
+  P = 31.46 kbar, E = -448.58658586 Ry, Time = 19s
+Testing factor = 9 (ecutrho = 1260 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor9.in
+  Exit code: 0, Time: 18s
+  P = 31.95 kbar, E = -448.58658602 Ry, Time = 18s
+Testing factor = 10 (ecutrho = 1400 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor10.in
+  Exit code: 0, Time: 18s
+  P = 31.96 kbar, E = -448.58658530 Ry, Time = 18s
+Testing factor = 12 (ecutrho = 1680 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor12.in
+  Exit code: 0, Time: 22s
+  P = 32.20 kbar, E = -448.58658419 Ry, Time = 22s
+Testing factor = 15 (ecutrho = 2100 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor15.in
+  Exit code: 0, Time: 26s
+  P = 31.68 kbar, E = -448.58658369 Ry, Time = 26s
+Testing factor = 20 (ecutrho = 2800 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor20.in
+  Exit code: 0, Time: 36s
+  P = 31.28 kbar, E = -448.58658356 Ry, Time = 36s
+Testing factor = 25 (ecutrho = 3500 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor25.in
+  Exit code: 0, Time: 44s
+  P = 31.40 kbar, E = -448.58658357 Ry, Time = 44s
+Testing factor = 30 (ecutrho = 4200 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe_ecutrho_convergence/TiFe2_factor30.in
+  Exit code: 0, Time: 39s
+  P = 31.07 kbar, E = -448.58658351 Ry, Time = 39s
+
+════════════════════════════════════════════════════════════
+  RESULTS SUMMARY
+════════════════════════════════════════════════════════════
+
+# Factor    ecutrho(Ry)    Pressure(kbar)    Energy(Ry)    Time(s)
+2    280    36.09    -448.58939100    10
+4    560    32.20    -448.58663335    15
+5    700    31.07    -448.58662948    14
+6    840    32.18    -448.58658892    18
+7    980    31.18    -448.58659446    16
+8    1120    31.46    -448.58658586    19
+9    1260    31.95    -448.58658602    18
+10    1400    31.96    -448.58658530    18
+12    1680    32.20    -448.58658419    22
+15    2100    31.68    -448.58658369    26
+20    2800    31.28    -448.58658356    36
+25    3500    31.40    -448.58658357    44
+30    4200    31.07    -448.58658351    39
+
+Job completed on: Tue Oct 28 10:55:55 AM CET 2025
+Results saved to: TiFe_ecutrho_convergence/ecutrho_factor_convergence.dat

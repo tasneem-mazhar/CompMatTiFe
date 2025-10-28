@@ -1,0 +1,39 @@
+Job started on: Mon Oct 27 10:19:47 PM CET 2025
+Running on node: node3514.doduo.os
+Job ID: 59659090
+Working directory: /vscmnt/antwerpen_storage_home/_user_antwerpen/211/vsc21139/compmatphys/project/1st_step/TiFe
+
+════════════════════════════════════════════════════════════
+  K-mesh Convergence Test (HPC)
+════════════════════════════════════════════════════════════
+
+Testing k-mesh: 9x9x9
+  9x9x9: P = 20.68 kbar, E = -448.57918837 Ry, Time = 19s
+Testing k-mesh: 12x12x12
+  12x12x12: P = 22.11 kbar, E = -448.57944435 Ry, Time = 20s
+Testing k-mesh: 15x15x15
+  15x15x15: P = 20.38 kbar, E = -448.57932675 Ry, Time = 28s
+Testing k-mesh: 20x20x20
+  20x20x20: P = 21.33 kbar, E = -448.57933288 Ry, Time = 53s
+Testing k-mesh: 30x30x30
+  30x30x30: P = 21.06 kbar, E = -448.57933429 Ry, Time = 156s
+Testing k-mesh: 40x40x40
+  40x40x40: P = 20.86 kbar, E = -448.57933177 Ry, Time = 326s
+Testing k-mesh: 50x50x50
+  50x50x50: P = 21.09 kbar, E = -448.57933165 Ry, Time = 593s
+
+════════════════════════════════════════════════════════════
+  RESULTS SUMMARY
+════════════════════════════════════════════════════════════
+
+# k-mesh    Pressure(kbar)    Energy(Ry)    Time(s)
+9x9x9    20.68    -448.57918837    19
+12x12x12    22.11    -448.57944435    20
+15x15x15    20.38    -448.57932675    28
+20x20x20    21.33    -448.57933288    53
+30x30x30    21.06    -448.57933429    156
+40x40x40    20.86    -448.57933177    326
+50x50x50    21.09    -448.57933165    593
+
+Job completed on: Mon Oct 27 10:39:42 PM CET 2025
+Results saved to: TiFe_kmesh_convergence/kmesh_convergence.dat

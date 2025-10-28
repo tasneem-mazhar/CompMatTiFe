@@ -1,0 +1,42 @@
+Job started on: Mon Oct 27 02:18:42 AM CET 2025
+Running on node: node3507.doduo.os
+Job ID: 59638073
+Working directory: /vscmnt/antwerpen_storage_home/_user_antwerpen/211/vsc21139/compmatphys/project/1st_step
+
+════════════════════════════════════════════════════════════
+  K-mesh Convergence Test (HPC)
+════════════════════════════════════════════════════════════
+
+Testing k-mesh: 2x2x2
+  2x2x2: P = -161.03 kbar, E = -3111.26478047 Ry, Time = 82s
+Testing k-mesh: 3x3x3
+  3x3x3: P = -164.95 kbar, E = -3111.29718821 Ry, Time = 82s
+Testing k-mesh: 4x4x4
+  4x4x4: P = -163.99 kbar, E = -3111.29213320 Ry, Time = 134s
+Testing k-mesh: 5x5x5
+  5x5x5: P = -164.46 kbar, E = -3111.29334235 Ry, Time = 163s
+Testing k-mesh: 6x6x6
+  6x6x6: P = -164.72 kbar, E = -3111.29383746 Ry, Time = 274s
+Testing k-mesh: 7x7x7
+  7x7x7: P = -164.74 kbar, E = -3111.29402275 Ry, Time = 269s
+Testing k-mesh: 8x8x8
+  8x8x8: P = -164.69 kbar, E = -3111.29409203 Ry, Time = 507s
+Testing k-mesh: 9x9x9
+  9x9x9: P = -164.58 kbar, E = -3111.29402234 Ry, Time = 612s
+
+════════════════════════════════════════════════════════════
+  RESULTS SUMMARY
+════════════════════════════════════════════════════════════
+
+# k-mesh    Pressure(kbar)    Energy(Ry)    Time(s)
+2x2x2    -161.03    -3111.26478047    82
+3x3x3    -164.95    -3111.29718821    82
+4x4x4    -163.99    -3111.29213320    134
+5x5x5    -164.46    -3111.29334235    163
+6x6x6    -164.72    -3111.29383746    274
+7x7x7    -164.74    -3111.29402275    269
+8x8x8    -164.69    -3111.29409203    507
+9x9x9    -164.58    -3111.29402234    612
+
+Job completed on: Mon Oct 27 02:54:05 AM CET 2025
+Results saved to: TiFe2_kmesh_convergence/kmesh_convergence.dat

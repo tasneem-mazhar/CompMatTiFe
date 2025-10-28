@@ -1,0 +1,85 @@
+Job started on: Mon Oct 27 02:33:46 PM CET 2025
+Running on node: node3505.doduo.os
+Job ID: 59655434
+
+════════════════════════════════════════════════════════════
+  ecutwfc Convergence Test (HPC)
+════════════════════════════════════════════════════════════
+
+Using converged k-mesh: 6 6 6
+
+Testing ecutwfc = 20 Ry (ecutrho = 100 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe2_ecutwfc_convergence/TiFe2_ecut20.in > TiFe2_ecutwfc_convergence/TiFe2_ecut20.out
+  Calculation finished with exit code: 0, Time: 87s
+  Output file size: 1120 lines
+  P = -1999.10 kbar, E = -3106.26769866 Ry, Time = 87s
+Testing ecutwfc = 30 Ry (ecutrho = 150 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe2_ecutwfc_convergence/TiFe2_ecut30.in > TiFe2_ecutwfc_convergence/TiFe2_ecut30.out
+  Calculation finished with exit code: 0, Time: 96s
+  Output file size: 1131 lines
+  P = 125.55 kbar, E = -3109.91628494 Ry, Time = 96s
+Testing ecutwfc = 40 Ry (ecutrho = 200 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe2_ecutwfc_convergence/TiFe2_ecut40.in > TiFe2_ecutwfc_convergence/TiFe2_ecut40.out
+  Calculation finished with exit code: 0, Time: 107s
+  Output file size: 1072 lines
+  P = -433.74 kbar, E = -3110.70229974 Ry, Time = 107s
+Testing ecutwfc = 50 Ry (ecutrho = 250 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe2_ecutwfc_convergence/TiFe2_ecut50.in > TiFe2_ecutwfc_convergence/TiFe2_ecut50.out
+  Calculation finished with exit code: 0, Time: 145s
+  Output file size: 1074 lines
+  P = -212.10 kbar, E = -3111.25781348 Ry, Time = 145s
+Testing ecutwfc = 60 Ry (ecutrho = 300 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe2_ecutwfc_convergence/TiFe2_ecut60.in > TiFe2_ecutwfc_convergence/TiFe2_ecut60.out
+  Calculation finished with exit code: 0, Time: 151s
+  Output file size: 1070 lines
+  P = -149.09 kbar, E = -3111.30127829 Ry, Time = 151s
+Testing ecutwfc = 70 Ry (ecutrho = 350 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe2_ecutwfc_convergence/TiFe2_ecut70.in > TiFe2_ecutwfc_convergence/TiFe2_ecut70.out
+  Calculation finished with exit code: 0, Time: 171s
+  Output file size: 1072 lines
+  P = -163.16 kbar, E = -3111.31675584 Ry, Time = 171s
+Testing ecutwfc = 80 Ry (ecutrho = 400 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe2_ecutwfc_convergence/TiFe2_ecut80.in > TiFe2_ecutwfc_convergence/TiFe2_ecut80.out
+  Calculation finished with exit code: 0, Time: 218s
+  Output file size: 1087 lines
+  P = -162.16 kbar, E = -3111.33786994 Ry, Time = 218s
+Testing ecutwfc = 90 Ry (ecutrho = 450 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe2_ecutwfc_convergence/TiFe2_ecut90.in > TiFe2_ecutwfc_convergence/TiFe2_ecut90.out
+  Calculation finished with exit code: 0, Time: 242s
+  Output file size: 1079 lines
+  P = -153.56 kbar, E = -3111.34745258 Ry, Time = 242s
+Testing ecutwfc = 100 Ry (ecutrho = 500 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe2_ecutwfc_convergence/TiFe2_ecut100.in > TiFe2_ecutwfc_convergence/TiFe2_ecut100.out
+  Calculation finished with exit code: 0, Time: 263s
+  Output file size: 1081 lines
+  P = -150.42 kbar, E = -3111.34840564 Ry, Time = 263s
+Testing ecutwfc = 110 Ry (ecutrho = 550 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe2_ecutwfc_convergence/TiFe2_ecut110.in > TiFe2_ecutwfc_convergence/TiFe2_ecut110.out
+  Calculation finished with exit code: 0, Time: 297s
+  Output file size: 1085 lines
+  P = -151.96 kbar, E = -3111.34853193 Ry, Time = 297s
+Testing ecutwfc = 120 Ry (ecutrho = 600 Ry)
+  Running: mpirun -np 16 pw.x -input TiFe2_ecutwfc_convergence/TiFe2_ecut120.in > TiFe2_ecutwfc_convergence/TiFe2_ecut120.out
+  Calculation finished with exit code: 0, Time: 320s
+  Output file size: 1087 lines
+  P = -153.23 kbar, E = -3111.35010248 Ry, Time = 320s
+
+════════════════════════════════════════════════════════════
+  RESULTS SUMMARY
+════════════════════════════════════════════════════════════
+
+# ecutwfc(Ry)    ecutrho(Ry)    Pressure(kbar)    Energy(Ry)    Time(s)
+20    100    -1999.10    -3106.26769866    87
+30    150    125.55    -3109.91628494    96
+40    200    -433.74    -3110.70229974    107
+50    250    -212.10    -3111.25781348    145
+60    300    -149.09    -3111.30127829    151
+70    350    -163.16    -3111.31675584    171
+80    400    -162.16    -3111.33786994    218
+90    450    -153.56    -3111.34745258    242
+100    500    -150.42    -3111.34840564    263
+110    550    -151.96    -3111.34853193    297
+120    600    -153.23    -3111.35010248    320
+
+Job completed on: Mon Oct 27 03:08:43 PM CET 2025
+Results saved to: TiFe2_ecutwfc_convergence/ecutwfc_convergence.dat
