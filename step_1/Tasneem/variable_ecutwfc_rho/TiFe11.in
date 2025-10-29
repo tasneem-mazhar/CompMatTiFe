@@ -1,0 +1,37 @@
+&CONTROL
+  calculation='scf',
+  outdir='./out/',
+  prefix='TiFe11',
+  pseudo_dir='/home/rafi/QE/qe-7.4.1/pseudo',
+  verbosity='low',
+  tprnfor=.true.,
+  tstress=.true.,
+/
+&SYSTEM
+  ibrav = 0,
+  A = 2.93868,
+  nat = 2,
+  ntyp = 2,
+  ecutwfc = 140,
+  ecutrho = 1400,
+  input_dft = 'pbe',
+  occupations = 'smearing',
+  smearing = 'mv',
+  degauss = 0.005d0,
+/
+&ELECTRONS
+  conv_thr = 1d-08,
+  mixing_beta = 0.7d0,
+/
+CELL_PARAMETERS {alat}
+  1.000000000000000   0.000000000000000   0.000000000000000
+  0.000000000000000   1.000000000000000   0.000000000000000
+  0.000000000000000   0.000000000000000   1.000000000000000
+ATOMIC_SPECIES
+  Fe   55.84500  Fe.pbe-spn-kjpaw_psl.0.2.1.UPF
+  Ti   47.86700  ti_pbe_v1.4.uspp.F.UPF
+ATOMIC_POSITIONS {crystal}
+Fe   0.500000000000000   0.500000000000000   0.500000000000000
+Ti   0.000000000000000   0.000000000000000   0.000000000000000
+K_POINTS {automatic}
+10 10 10 0 0 0
