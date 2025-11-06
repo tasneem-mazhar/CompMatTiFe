@@ -1,0 +1,23 @@
+======================================================================
+BIRCH-MURNAGHAN EQUATION OF STATE FIT RESULTS
+======================================================================
+
+Fitted Parameters:
+----------------------------------------------------------------------
+E0 (equilibrium energy):     -448.5864874248 +/- 0.0004725814 Ry
+V0 (equilibrium volume):     174.630601 +/- 0.203145 Ang^3
+a0 (lattice parameter):      5.589506 Ang (for cubic cell)
+B0 (bulk modulus):           1255.07 +/- 5.24 GPa
+                             12550.7 kbar
+B0' (pressure derivative):   4.010 +/- 0.022
+
+Fit Quality:
+----------------------------------------------------------------------
+R-squared:                   0.99998304
+RMSE:                        0.00098231 Ry
+Max residual:                0.00191089 Ry
+
+At P = 10 GPa (100 kbar):
+  Volume:                    173.266265 Ang^3
+  Change:                    -1.364336 Ang^3 (-0.78%)
+  Compression:               0.78%
