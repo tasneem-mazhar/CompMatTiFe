@@ -1,0 +1,7 @@
+VC-RELAX Results for TiFe
+==========================
+
+Final volume: 174.0875 Ang^3
+Final lattice parameter: 2.9386786341 Angstrom
+
+!    total energy              =    -448.58697554 Ry
