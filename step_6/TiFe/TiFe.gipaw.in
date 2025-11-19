@@ -1,0 +1,7 @@
+&inputgipaw
+  job = 'efg',
+  prefix = 'TiFe',
+  outdir = './outputs_scf',
+  tmp_dir = './tmp_dir',
+  verbosity = 'low'
+/
